@@ -1,0 +1,39 @@
+2025-08-01 09:59:24,899 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-02 06:30:25,559 - INFO - 🔄 Intento 1 de 3
+2025-08-02 06:30:25,756 - INFO - ====== WebDriver manager ======
+2025-08-02 06:30:27,661 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 06:30:27,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 06:30:28,213 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-02 06:30:32,742 - INFO - Iniciando la automatización...
+2025-08-02 06:30:32,778 - INFO - Hoy es fin de semana. No se enviará formulario.
+2025-08-03 06:30:05,129 - INFO - 🔄 Intento 1 de 3
+2025-08-03 06:30:05,255 - INFO - ====== WebDriver manager ======
+2025-08-03 06:30:06,937 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-03 06:30:07,204 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-03 06:30:07,403 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-03 06:30:11,038 - INFO - Iniciando la automatización...
+2025-08-03 06:30:11,040 - INFO - Hoy es fin de semana. No se enviará formulario.
+2025-08-04 06:30:12,725 - INFO - 🔄 Intento 1 de 3
+2025-08-04 06:30:12,738 - INFO - ====== WebDriver manager ======
+2025-08-04 06:30:14,918 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-04 06:30:15,217 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-04 06:30:15,410 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-04 06:30:19,597 - INFO - Iniciando la automatización...
+2025-08-04 06:30:26,436 - INFO - Fecha de hoy (2025-08-04) ingresada correctamente.
+2025-08-04 06:30:26,437 - INFO - Seleccionando opciones del formulario...
+2025-08-04 06:30:28,877 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-04 06:30:31,343 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-04 06:30:33,776 - INFO - Jefe seleccionado correctamente.
+2025-08-04 06:30:36,263 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-04 06:30:38,624 - INFO - Opción 'Presencial' seleccionada.
+2025-08-04 06:30:40,971 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-04 06:30:44,297 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-04 06:30:46,594 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-04 06:30:48,892 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-04 06:30:49,572 - INFO - Email ingresado correctamente.
+2025-08-04 06:30:52,694 - INFO - ✅ Formulario enviado correctamente.
+2025-08-04 13:45:52,665 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-04 13:46:51,278 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-04 13:48:51,434 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-04 14:00:45,893 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-04 14:43:05,849 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
