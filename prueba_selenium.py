@@ -80,12 +80,12 @@ def run_automation():
             horario_seleccionado = '6:30 AM -12:30 PM Y 1:30 PM A 3:30PM (Viernes)'
         elif hoy_date in co_holidays:
             logging.info(f"============================================================================" \
-                          f"Hoy es feriado ({co_holidays.get(hoy_date)}). No se enviará el formulario." \
+                         f" Hoy es feriado ({co_holidays.get(hoy_date)}). No se enviará el formulario." \
                          f"============================================================================")
             return
         elif dia_semana in [5, 6]:
             logging.info("=================================================" \
-                          "Hoy es fin de semana. No se enviará formulario." \
+                         " Hoy es fin de semana. No se enviará formulario. " \
                          "=================================================")
             return
         # Abrir formulario

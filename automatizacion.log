@@ -37,3 +37,375 @@
 2025-08-04 13:48:51,434 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
 2025-08-04 14:00:45,893 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
 2025-08-04 14:43:05,849 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-05 06:30:16,061 - INFO - 🔄 Intento 1 de 3
+2025-08-05 06:30:16,244 - INFO - ====== WebDriver manager ======
+2025-08-05 06:30:18,343 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-05 06:30:18,800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-05 06:30:19,010 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-05 06:30:23,137 - INFO - Iniciando la automatización...
+2025-08-05 06:30:30,333 - INFO - Fecha de hoy (2025-08-05) ingresada correctamente.
+2025-08-05 06:30:30,334 - INFO - Seleccionando opciones del formulario...
+2025-08-05 06:30:32,900 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-05 06:30:35,423 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-05 06:30:37,785 - INFO - Jefe seleccionado correctamente.
+2025-08-05 06:30:40,101 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-05 06:30:42,410 - INFO - Opción 'Presencial' seleccionada.
+2025-08-05 06:30:44,676 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-05 06:30:48,062 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-05 06:30:50,401 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-05 06:30:52,728 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-05 06:30:53,430 - INFO - Email ingresado correctamente.
+2025-08-05 06:30:56,582 - INFO - ✅ Formulario enviado correctamente.
+2025-08-06 06:30:02,209 - INFO - 🔄 Intento 1 de 3
+2025-08-06 06:30:02,229 - INFO - ====== WebDriver manager ======
+2025-08-06 06:30:04,186 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-06 06:30:04,436 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-06 06:30:04,629 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-06 06:30:09,208 - INFO - Iniciando la automatización...
+2025-08-06 06:30:14,004 - ERROR - Ocurrió un error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1208265916162013"]"}
+  (Session info: chrome=138.0.7204.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x11cba83+63395]
+	GetHandleVerifier [0x0x11cbac4+63460]
+	(No symbol) [0x0x1012113]
+	(No symbol) [0x0x105a85e]
+	(No symbol) [0x0x105abfb]
+	(No symbol) [0x0x10a2f92]
+	(No symbol) [0x0x107f3f4]
+	(No symbol) [0x0x10a07ba]
+	(No symbol) [0x0x107f1a6]
+	(No symbol) [0x0x104e7b2]
+	(No symbol) [0x0x104f654]
+	GetHandleVerifier [0x0x1448883+2672035]
+	GetHandleVerifier [0x0x1443cba+2652634]
+	GetHandleVerifier [0x0x11f2bca+223466]
+	GetHandleVerifier [0x0x11e2cb8+158168]
+	GetHandleVerifier [0x0x11e978d+185517]
+	GetHandleVerifier [0x0x11d3b78+96408]
+	GetHandleVerifier [0x0x11d3d02+96802]
+	GetHandleVerifier [0x0x11be90a+9770]
+	BaseThreadInitThunk [0x0x76bf5d49+25]
+	RtlInitializeExceptionChain [0x0x779dd1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779dd131+561]
+Traceback (most recent call last):
+  File "C:\Users\svega\Downloads\todos los dias\prueba_selenium.py", line 96, in run_automation
+    driver.find_element(By.XPATH, '//*[@id="1208265916162013"]').send_keys("Santago Vega Pinilla")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1208265916162013"]"}
+  (Session info: chrome=138.0.7204.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x11cba83+63395]
+	GetHandleVerifier [0x0x11cbac4+63460]
+	(No symbol) [0x0x1012113]
+	(No symbol) [0x0x105a85e]
+	(No symbol) [0x0x105abfb]
+	(No symbol) [0x0x10a2f92]
+	(No symbol) [0x0x107f3f4]
+	(No symbol) [0x0x10a07ba]
+	(No symbol) [0x0x107f1a6]
+	(No symbol) [0x0x104e7b2]
+	(No symbol) [0x0x104f654]
+	GetHandleVerifier [0x0x1448883+2672035]
+	GetHandleVerifier [0x0x1443cba+2652634]
+	GetHandleVerifier [0x0x11f2bca+223466]
+	GetHandleVerifier [0x0x11e2cb8+158168]
+	GetHandleVerifier [0x0x11e978d+185517]
+	GetHandleVerifier [0x0x11d3b78+96408]
+	GetHandleVerifier [0x0x11d3d02+96802]
+	GetHandleVerifier [0x0x11be90a+9770]
+	BaseThreadInitThunk [0x0x76bf5d49+25]
+	RtlInitializeExceptionChain [0x0x779dd1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779dd131+561]
+
+2025-08-06 06:35:01,318 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-06 06:40:38,935 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-06 06:41:08,936 - INFO - 🔄 Intento 1 de 3
+2025-08-06 06:41:08,936 - INFO - ====== WebDriver manager ======
+2025-08-06 06:41:10,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-06 06:41:11,027 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-06 06:41:11,232 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.66\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-06 06:41:15,393 - INFO - Iniciando la automatización...
+2025-08-06 06:41:20,273 - ERROR - Ocurrió un error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1208265916162013"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0xcdfd23+62915]
+	GetHandleVerifier [0x0xcdfd64+62980]
+	(No symbol) [0x0xb13e13]
+	(No symbol) [0x0xb5c89e]
+	(No symbol) [0x0xb5cc3b]
+	(No symbol) [0x0xba4ec2]
+	(No symbol) [0x0xb81424]
+	(No symbol) [0x0xba26ea]
+	(No symbol) [0x0xb811d6]
+	(No symbol) [0x0xb50833]
+	(No symbol) [0x0xb516a4]
+	GetHandleVerifier [0x0xf48d13+2590131]
+	GetHandleVerifier [0x0xf43f5a+2570234]
+	GetHandleVerifier [0x0xd059da+217722]
+	GetHandleVerifier [0x0xcf6048+153832]
+	GetHandleVerifier [0x0xcfc4ad+179533]
+	GetHandleVerifier [0x0xce7728+94152]
+	GetHandleVerifier [0x0xce78b2+94546]
+	GetHandleVerifier [0x0xcd2bca+9322]
+	BaseThreadInitThunk [0x0x76bf5d49+25]
+	RtlInitializeExceptionChain [0x0x779dd1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779dd131+561]
+Traceback (most recent call last):
+  File "c:\Users\svega\Downloads\todos los dias\prueba_selenium.py", line 96, in run_automation
+    driver.find_element(By.XPATH, '//*[@id="1208265916162013"]').send_keys("Santago Vega Pinilla")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\svega\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1208265916162013"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0xcdfd23+62915]
+	GetHandleVerifier [0x0xcdfd64+62980]
+	(No symbol) [0x0xb13e13]
+	(No symbol) [0x0xb5c89e]
+	(No symbol) [0x0xb5cc3b]
+	(No symbol) [0x0xba4ec2]
+	(No symbol) [0x0xb81424]
+	(No symbol) [0x0xba26ea]
+	(No symbol) [0x0xb811d6]
+	(No symbol) [0x0xb50833]
+	(No symbol) [0x0xb516a4]
+	GetHandleVerifier [0x0xf48d13+2590131]
+	GetHandleVerifier [0x0xf43f5a+2570234]
+	GetHandleVerifier [0x0xd059da+217722]
+	GetHandleVerifier [0x0xcf6048+153832]
+	GetHandleVerifier [0x0xcfc4ad+179533]
+	GetHandleVerifier [0x0xce7728+94152]
+	GetHandleVerifier [0x0xce78b2+94546]
+	GetHandleVerifier [0x0xcd2bca+9322]
+	BaseThreadInitThunk [0x0x76bf5d49+25]
+	RtlInitializeExceptionChain [0x0x779dd1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779dd131+561]
+
+2025-08-11 06:33:37,786 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-11 06:34:07,788 - INFO - 🔄 Intento 1 de 3
+2025-08-11 06:34:07,789 - INFO - ====== WebDriver manager ======
+2025-08-11 06:34:10,715 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-11 06:34:11,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-11 06:34:11,743 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-11 06:34:12,286 - INFO - WebDriver version 139.0.7258.66 selected
+2025-08-11 06:34:12,299 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.66/win32/chromedriver-win32.zip
+2025-08-11 06:34:12,300 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.66/win32/chromedriver-win32.zip
+2025-08-11 06:34:12,697 - INFO - Driver downloading response is 200
+2025-08-11 06:34:14,642 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-11 06:34:15,494 - INFO - Driver has been saved in cache [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.66]
+2025-08-11 06:34:21,282 - INFO - Iniciando la automatización...
+2025-08-11 06:34:28,048 - INFO - Fecha de hoy (2025-08-11) ingresada correctamente.
+2025-08-11 06:34:28,049 - INFO - Seleccionando opciones del formulario...
+2025-08-11 06:34:30,449 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-11 06:34:32,872 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-11 06:34:35,295 - INFO - Jefe seleccionado correctamente.
+2025-08-11 06:34:37,655 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-11 06:34:40,027 - INFO - Opción 'Presencial' seleccionada.
+2025-08-11 06:34:42,381 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-11 06:34:45,724 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-11 06:34:48,108 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-11 06:34:50,443 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-11 06:34:51,111 - INFO - Email ingresado correctamente.
+2025-08-11 06:34:54,259 - INFO - ✅ Formulario enviado correctamente.
+2025-08-11 16:22:52,771 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-13 07:07:43,392 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-13 07:08:13,393 - INFO - 🔄 Intento 1 de 3
+2025-08-13 07:08:13,394 - INFO - ====== WebDriver manager ======
+2025-08-13 07:08:15,232 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-13 07:08:15,573 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-13 07:08:15,778 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-13 07:08:16,253 - INFO - WebDriver version 139.0.7258.68 selected
+2025-08-13 07:08:16,261 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.68/win32/chromedriver-win32.zip
+2025-08-13 07:08:16,262 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.68/win32/chromedriver-win32.zip
+2025-08-13 07:08:16,996 - INFO - Driver downloading response is 200
+2025-08-13 07:08:21,150 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-13 07:08:21,999 - INFO - Driver has been saved in cache [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68]
+2025-08-13 07:08:25,636 - INFO - Iniciando la automatización...
+2025-08-13 07:08:33,510 - INFO - Fecha de hoy (2025-08-13) ingresada correctamente.
+2025-08-13 07:08:33,511 - INFO - Seleccionando opciones del formulario...
+2025-08-13 07:08:35,944 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-13 07:08:38,295 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-13 07:08:40,856 - INFO - Jefe seleccionado correctamente.
+2025-08-13 07:08:43,233 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-13 07:08:45,547 - INFO - Opción 'Presencial' seleccionada.
+2025-08-13 07:08:47,839 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-13 07:08:53,093 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-13 07:08:55,401 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-13 07:08:57,682 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-13 07:08:58,352 - INFO - Email ingresado correctamente.
+2025-08-13 07:09:01,475 - INFO - ✅ Formulario enviado correctamente.
+2025-08-13 07:45:10,702 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-13 07:45:31,891 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-13 11:30:58,814 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-14 06:30:29,254 - INFO - 🔄 Intento 1 de 3
+2025-08-14 06:30:29,289 - INFO - ====== WebDriver manager ======
+2025-08-14 06:30:31,132 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-14 06:30:31,394 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-14 06:30:31,597 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver.exe] found in cache
+2025-08-14 06:30:33,913 - INFO - Iniciando la automatización...
+2025-08-14 06:30:40,164 - INFO - Fecha de hoy (2025-08-14) ingresada correctamente.
+2025-08-14 06:30:40,164 - INFO - Seleccionando opciones del formulario...
+2025-08-14 06:30:42,472 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-14 06:30:44,841 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-14 06:30:47,213 - INFO - Jefe seleccionado correctamente.
+2025-08-14 06:30:49,521 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-14 06:30:51,793 - INFO - Opción 'Presencial' seleccionada.
+2025-08-14 06:30:54,086 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-14 06:30:57,339 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-14 06:30:59,615 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-14 06:31:01,884 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-14 06:31:02,556 - INFO - Email ingresado correctamente.
+2025-08-14 06:31:05,683 - INFO - ✅ Formulario enviado correctamente.
+2025-08-15 06:30:08,629 - INFO - 🔄 Intento 1 de 3
+2025-08-15 06:30:08,664 - INFO - ====== WebDriver manager ======
+2025-08-15 06:30:10,511 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-15 06:30:11,250 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-15 06:30:11,798 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-15 06:30:12,319 - INFO - WebDriver version 139.0.7258.68 selected
+2025-08-15 06:30:12,326 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.68/win32/chromedriver-win32.zip
+2025-08-15 06:30:12,327 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.68/win32/chromedriver-win32.zip
+2025-08-15 06:30:12,780 - INFO - Driver downloading response is 200
+2025-08-15 06:30:14,656 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-15 06:30:15,458 - INFO - Driver has been saved in cache [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68]
+2025-08-15 06:30:19,278 - INFO - Iniciando la automatización...
+2025-08-15 06:30:26,141 - INFO - Fecha de hoy (2025-08-15) ingresada correctamente.
+2025-08-15 06:30:26,142 - INFO - Seleccionando opciones del formulario...
+2025-08-15 06:30:28,496 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-15 06:30:30,920 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-15 06:30:33,266 - INFO - Jefe seleccionado correctamente.
+2025-08-15 06:30:35,541 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-15 06:30:37,822 - INFO - Opción 'Presencial' seleccionada.
+2025-08-15 06:30:40,097 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-15 06:30:43,407 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-15 06:30:45,691 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 3:30PM (Viernes) correctamente.
+2025-08-15 06:30:47,978 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-15 06:30:48,649 - INFO - Email ingresado correctamente.
+2025-08-15 06:30:51,797 - INFO - ✅ Formulario enviado correctamente.
+2025-08-16 06:30:24,802 - INFO - 🔄 Intento 1 de 3
+2025-08-16 06:30:24,831 - INFO - ====== WebDriver manager ======
+2025-08-16 06:30:26,887 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-16 06:30:27,137 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-16 06:30:27,334 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-16 06:30:30,018 - INFO - Iniciando la automatización...
+2025-08-16 06:30:30,025 - INFO - ================================================= Hoy es fin de semana. No se enviará formulario. =================================================
+2025-08-17 06:30:01,776 - INFO - 🔄 Intento 1 de 3
+2025-08-17 06:30:01,896 - INFO - ====== WebDriver manager ======
+2025-08-17 06:30:05,616 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-17 06:30:06,401 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-17 06:30:06,600 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-17 06:30:10,378 - INFO - Iniciando la automatización...
+2025-08-17 06:30:10,379 - INFO - ================================================= Hoy es fin de semana. No se enviará formulario. =================================================
+2025-08-18 06:30:12,398 - INFO - 🔄 Intento 1 de 3
+2025-08-18 06:30:12,409 - INFO - ====== WebDriver manager ======
+2025-08-18 06:30:14,716 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-18 06:30:15,056 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-18 06:30:15,261 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-18 06:30:18,481 - INFO - Iniciando la automatización...
+2025-08-18 06:30:18,482 - INFO - ============================================================================ Hoy es feriado (La Asunción (observado)). No se enviará el formulario.============================================================================
+2025-08-19 06:30:20,097 - INFO - 🔄 Intento 1 de 3
+2025-08-19 06:30:20,112 - INFO - ====== WebDriver manager ======
+2025-08-19 06:30:22,583 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-19 06:30:22,865 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-19 06:30:23,079 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-19 06:30:26,378 - INFO - Iniciando la automatización...
+2025-08-19 06:30:33,413 - INFO - Fecha de hoy (2025-08-19) ingresada correctamente.
+2025-08-19 06:30:33,413 - INFO - Seleccionando opciones del formulario...
+2025-08-19 06:30:35,822 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-19 06:30:38,305 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-19 06:30:40,712 - INFO - Jefe seleccionado correctamente.
+2025-08-19 06:30:43,009 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-19 06:30:45,347 - INFO - Opción 'Presencial' seleccionada.
+2025-08-19 06:30:47,641 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-19 06:30:50,982 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-19 06:30:53,323 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-19 06:30:55,678 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-19 06:30:56,382 - INFO - Email ingresado correctamente.
+2025-08-19 06:30:59,519 - INFO - ✅ Formulario enviado correctamente.
+2025-08-20 07:05:11,172 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-20 07:05:32,596 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-20 07:06:02,597 - INFO - 🔄 Intento 1 de 3
+2025-08-20 07:06:02,599 - INFO - ====== WebDriver manager ======
+2025-08-20 07:06:05,187 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 07:06:05,449 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 07:06:05,671 - INFO - Driver [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-20 07:06:11,439 - INFO - Iniciando la automatización...
+2025-08-20 07:06:19,282 - INFO - Fecha de hoy (2025-08-20) ingresada correctamente.
+2025-08-20 07:06:19,283 - INFO - Seleccionando opciones del formulario...
+2025-08-20 07:06:21,849 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-20 07:06:24,691 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-20 07:06:27,119 - INFO - Jefe seleccionado correctamente.
+2025-08-20 07:06:29,451 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-20 07:06:31,809 - INFO - Opción 'Presencial' seleccionada.
+2025-08-20 07:06:34,188 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-20 07:06:37,567 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-20 07:06:39,876 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-20 07:06:42,191 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-20 07:06:42,939 - INFO - Email ingresado correctamente.
+2025-08-20 07:06:46,135 - INFO - ✅ Formulario enviado correctamente.
+2025-08-20 09:53:23,617 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-20 16:40:48,307 - INFO - ⏰ Automatización programada a las 06:30 todos los días (con reintentos).
+2025-08-21 06:30:18,123 - INFO - 🔄 Intento 1 de 3
+2025-08-21 06:30:18,157 - INFO - ====== WebDriver manager ======
+2025-08-21 06:30:19,925 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:20,510 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:20,766 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:21,246 - INFO - WebDriver version 139.0.7258.138 selected
+2025-08-21 06:30:21,252 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-21 06:30:21,253 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-21 06:30:21,981 - INFO - Driver downloading response is 200
+2025-08-21 06:30:25,356 - INFO - 🔄 Intento 1 de 3
+2025-08-21 06:30:25,508 - INFO - ====== WebDriver manager ======
+2025-08-21 06:30:27,488 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:27,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:28,126 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:28,604 - INFO - WebDriver version 139.0.7258.138 selected
+2025-08-21 06:30:28,613 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-21 06:30:28,613 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-21 06:30:28,691 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:28,963 - INFO - Driver downloading response is 200
+2025-08-21 06:30:29,473 - INFO - Driver has been saved in cache [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.138]
+2025-08-21 06:30:33,452 - INFO - Iniciando la automatización...
+2025-08-21 06:30:33,658 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 06:30:34,053 - INFO - Driver has been saved in cache [C:\Users\svega\.wdm\drivers\chromedriver\win64\139.0.7258.138]
+2025-08-21 06:30:35,906 - INFO - Iniciando la automatización...
+2025-08-21 06:30:41,738 - INFO - Fecha de hoy (2025-08-21) ingresada correctamente.
+2025-08-21 06:30:41,739 - INFO - Seleccionando opciones del formulario...
+2025-08-21 06:30:43,535 - INFO - Fecha de hoy (2025-08-21) ingresada correctamente.
+2025-08-21 06:30:43,535 - INFO - Seleccionando opciones del formulario...
+2025-08-21 06:30:44,116 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-21 06:30:45,979 - INFO - Opción 'Gerente De Tecnologia' seleccionada.
+2025-08-21 06:30:46,564 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-21 06:30:48,385 - INFO - Opción 'Jefe De Aseguramiento De Calidad De Software' seleccionada.
+2025-08-21 06:30:48,941 - INFO - Jefe seleccionado correctamente.
+2025-08-21 06:30:50,765 - INFO - Jefe seleccionado correctamente.
+2025-08-21 06:30:51,233 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-21 06:30:53,045 - INFO - Equipo Administrativo seleccionado correctamente.
+2025-08-21 06:30:53,574 - INFO - Opción 'Presencial' seleccionada.
+2025-08-21 06:30:55,350 - INFO - Opción 'Presencial' seleccionada.
+2025-08-21 06:30:55,882 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-21 06:30:57,646 - INFO - Lugar de trabajo del día de hoy seleccionado correctamente.
+2025-08-21 06:30:59,159 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-21 06:31:00,965 - INFO - Opción 'Sede administrativa Bogotá' seleccionada.
+2025-08-21 06:31:01,496 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-21 06:31:03,314 - INFO - Horario de jornada laboral seleccionado: 6:30 AM -12:30 PM Y 1:30 PM A 4:30PM correctamente.
+2025-08-21 06:31:03,821 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-21 06:31:04,500 - INFO - Email ingresado correctamente.
+2025-08-21 06:31:05,632 - INFO - Respuesta a la pregunta de novedad seleccionada correctamente.
+2025-08-21 06:31:06,312 - INFO - Email ingresado correctamente.
+2025-08-21 06:31:07,654 - INFO - ✅ Formulario enviado correctamente.
+2025-08-21 06:31:09,435 - INFO - ✅ Formulario enviado correctamente.
